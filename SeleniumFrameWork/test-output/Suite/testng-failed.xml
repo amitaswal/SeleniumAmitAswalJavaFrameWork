@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="MyName" value="Automation"/>
+    <classes>
+      <class name="Demo.TestNGParameterDemo">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- Demo.TestNGParameterDemo -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
